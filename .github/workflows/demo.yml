@@ -28,7 +28,7 @@ jobs:
       - name: dowmloading the artifacts
         uses: actions/checkout@v3
         with:
-          path: ambi
+          path: dist
     
   deploy:
     needs: build
